@@ -6,7 +6,7 @@ import Navbar from "./Components/Navbar";
 import Loader from "./loading/Loading";
 
 // Lazy load components
-const Home = lazy(() => import("./Components/home"));
+const Home = lazy(() => import("./Components/Home"));
 const Portfolio = lazy(() => import("./Components/Portfolio"));
 const Skills = lazy(() => import("./Components/Skills"));
 const Services = lazy(() => import("./Components/Services"));
