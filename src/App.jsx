@@ -2,7 +2,7 @@ import { lazy, Suspense, useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Layout from "./Components/Layout";
-import Navbar from "./components/navBar";
+import Navbar from "./Components/Navbar";
 import Loader from "./loading/Loading";
 
 // Lazy load components
